@@ -1,12 +1,19 @@
 {
-  "name": "sle/IT328/pets-oop",
+  "name": "sle/IT328/pets",
   "authors": [
     {
       "name": "Sang Le",
       "email": "sle11@mail.greenriver.edu"
+    },
+    {
+      "name": "Jake Suhoversnik",
+      "email": "jSuhoversnik@mail.greenriver.edu"
     }
   ],
   "require": {
     "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/"]
   }
 }
